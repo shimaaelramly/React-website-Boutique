@@ -1,42 +1,110 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+body {
+  background-image: url(../public/Images/background/er.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 120px;
+}
+
+.navbar {
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 70%;
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.425);
+  border: 2px solid rgb(231, 234, 235);
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(121, 57, 57, 0.1);
+  z-index: 1000;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-links {
+  display: flex;
+  gap: 95px;
+}
+
+.nav-links .nav-link {
+  color: #3f0c26 !important;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.nav-links .nav-link:hover {
+  color: #f0d383 !important;
+}
+
+footer {
   text-align: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #6c757d;
+  font-size: 14px;
+  margin-top: 100px;
+  border-top: 1px solid #ccc;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.container1 {
+  margin: 100px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container2 {
+  margin: 250px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.card:hover {
+  transform: scale(1.02);
 }
 
-.card {
-  padding: 2em;
+.container3 {
+  margin: 100px;
 }
 
-.read-the-docs {
-  color: #888;
+.collections-title {
+  text-align: center;
+  color: #eec53f; /* اللون الذهبي */
+  font-size: 50px;
+  font-weight: bold;
+  margin: 50px 0 30px;
+  text-shadow: 2px 2px 4px rgba(255, 249, 229, 0.979);
+  font-family: "Georgia", serif;
+  margin-bottom: 200px;
+}
+
+.about-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* يأخذ ارتفاع الشاشة بالكامل */
+  background-color: #fffaf3; /* خلفية ناعمة (اختياري) */
+}
+
+.about-p {
+  text-align: center;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  color: #333;
+  margin: 500px;
+}
+.bout-sh {
+  text-align: center;
+  color: #fc0c0c; /* اللون الذهبي */
+  font-size: 50px;
+  font-weight: bold;
+  margin: 50px 0 30px;
+  text-shadow: 2px 2px 4px rgba(255, 249, 229, 0.979);
+  font-family: "Playwrite MX Guides", cursive;
+  margin-bottom: 100px;
 }
